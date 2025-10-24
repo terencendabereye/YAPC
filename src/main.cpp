@@ -32,7 +32,7 @@ template <typename T> void printVec(std::vector<T> vec) {
 int main() {
   std::cout << "Starting..." << std::endl;
 
-  int max = 100;
+  int max = 300000;
   std::string path = "primes.txt";
   std::ofstream file(path);
   std::vector<int> primeArr;
@@ -45,9 +45,9 @@ int main() {
     }
   }
 
-  for (int v : primeArr) {
-    if (isPrime(v)) {
-      file << v << "\n";
+  for (int i = 0; i < max; i++) {
+    if (primeArr[i]) {
+      file << i << "\n";
     }
   }
 
