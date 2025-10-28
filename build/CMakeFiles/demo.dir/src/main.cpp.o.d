@@ -1,5 +1,4 @@
-CMakeFiles/demo.dir/src/main.cpp.o: \
-  /home/sarah/code/projects/cpp_project/src/main.cpp \
+CMakeFiles/demo.dir/src/main.cpp.o: /home/terence/code/yapc/src/main.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cmath \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \

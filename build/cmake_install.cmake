@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarah/code/projects/cpp_project
+# Install script for directory: /home/terence/code/yapc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sarah/code/projects/cpp_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/terence/code/yapc/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

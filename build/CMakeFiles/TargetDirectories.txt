@@ -1,3 +1,3 @@
-/home/sarah/code/projects/cpp_project/build/CMakeFiles/demo.dir
-/home/sarah/code/projects/cpp_project/build/CMakeFiles/edit_cache.dir
-/home/sarah/code/projects/cpp_project/build/CMakeFiles/rebuild_cache.dir
+/home/terence/code/yapc/build/CMakeFiles/demo.dir
+/home/terence/code/yapc/build/CMakeFiles/edit_cache.dir
+/home/terence/code/yapc/build/CMakeFiles/rebuild_cache.dir
