@@ -1,8 +1,10 @@
 #include <cmath>
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <numeric>
 #include <ostream>
+#include <string>
 #include <thread>
 #include <vector>
 
@@ -38,6 +40,11 @@ int main(int argc, char **argv) {
   }
 
   int max = 300000;
+
+  if (argc > 1) {
+    max = std::stoi(args[1]);
+  }
+
   std::string path = "primes.txt";
   std::ofstream file(path);
   std::vector<int> primeArr;
