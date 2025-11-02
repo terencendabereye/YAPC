@@ -30,8 +30,12 @@ template <typename T> void printVec(std::vector<T> vec) {
   std::cout << std::endl;
 }
 
-int main() {
+int main(int argc, char **argv) {
   std::cout << "Starting..." << std::endl;
+  std::vector<char *> args;
+  for (int i = 0; i < argc; i++) {
+    args.push_back(argv[i]);
+  }
 
   int max = 300000;
   std::string path = "primes.txt";
