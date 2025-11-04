@@ -1,3 +1,0 @@
-/home/terence/code/yapc/build/CMakeFiles/demo.dir
-/home/terence/code/yapc/build/CMakeFiles/edit_cache.dir
-/home/terence/code/yapc/build/CMakeFiles/rebuild_cache.dir
