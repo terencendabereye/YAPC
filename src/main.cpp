@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
   std::string path = "primes.txt";
   std::ofstream file(path);
   std::vector<int> primeArr;
-  primeArr.resize(max, 1);
+  primeArr.resize(max, 0);
   int numPrimes = 0;
 
   int i = 0;
@@ -68,8 +68,9 @@ int main(int argc, char **argv) {
   ui.detach();
 
   for (i = 0; i < primeArr.size(); i++) {
-    if (!isPrime(i)) {
-      primeArr[i] = 0;
+    if (isPrime(i)) {
+      primeArr[i] = 1;
+      numPrimes += 1;
     }
   }
 
@@ -82,7 +83,7 @@ int main(int argc, char **argv) {
   numPrimes = std::reduce(primeArr.begin(), primeArr.end());
 
   // printVec(primeArr);
-  std::cout << "Number of Primes: " << numPrimes << std::endl;
+  std::cout << "\n" << "Number of Primes: " << numPrimes << std::endl;
 
   return 0;
 }
